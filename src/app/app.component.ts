@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FaConfig } from '@fortawesome/angular-fontawesome';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bank';
+
+  // constructor(){}
+  constructor(faConfig: FaConfig) {
+    //faConfig.defaultPrefix = 'fas';
+    faConfig.defaultPrefix = 'fas';
+  }
 }

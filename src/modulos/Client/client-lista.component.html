@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="col-lg-12 text-center mt-3">
+        <h1>Bienvenido</h1>
+    </div>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2">
+      <div class="card">
+        <div class="card-body text-center">
+          <table class="table table-striped mt-3">
+            <thead>
+              <tr>
+                <th scope="col">nombre</th>
+                <th scope="col">phone</th>
+                <th scope="col">email</th>
+                <th scope="col">fecha</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let cliente of listClient">
+                <td>{{ cliente.name }}</td>
+                <td>{{ cliente.phoneNumber }}</td>
+                <td>{{ cliente.email }}</td>
+                <td>{{ cliente.regDate }}</td>
+                <td>
+                    <button class="btn btn-light" type="button">
+                        <i class="fa-solid fa-pen-to-square ml-30"></i>
+                    </button>
+                    
+                </td>
+                <td>
+                    <button class="btn btn-light" type="button"(click)="deletClient(cliente.id)"
+                    tooltip="Eliminar Artículo">
+                        <i class="fa-solid fa-trash text-danger">
+
+                    </i></button>
+                </td>
+              </tr>
+            </tbody>
+
+          </table>
+          <div class="mb-3">
+            <button routerLink="/" class="btn btn-primary btn-lg btn-block" (click)="agregar()" >AGREGAR</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
