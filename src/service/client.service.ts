@@ -15,8 +15,8 @@ export class ClientService{
     getClient(): Observable<Cliente[]>{
         return this.http.get<Cliente[]>(`${this.url}/Client`);
     }
-    getId(id: string): Observable<Cliente[]>{
-        return this.http.get<Cliente[]>(`${this.url}/Client/${id}`);
+    getId(id: string): Observable<any>{
+        return this.http.get(`${this.url}/Client/${id}`);
     }
     
     // postClient( client: Cliente): Observable<any>{
@@ -27,8 +27,12 @@ export class ClientService{
         return this.http.post<Cliente[]>(`${this.url}/client`, client);
     }
 
+    putClient( client: Cliente, id: string): Observable<any>{
+        return this.http.put(`${this.url}/client/${id}`, client);
+    }
+
     deletClient(id: string): Observable<any>{
-        return this.http.delete(this.url + id);
+        return this.http.delete(`${this.url}/Client/${id}`);
     }
 
 }

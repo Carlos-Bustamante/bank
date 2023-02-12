@@ -52,4 +52,10 @@ export class ClientListaComponent{
         this.router.navigate(['/add']);
     }
 
+    editar(id: any){
+       // this.seleccionado = editCliente;
+        this.router.navigate(['/edit', id])
+        // this.router.navigate(['/catalogo/articulos-agregar', { articuloId: this.seleccionado?.articuloId }]);
+    }
+
 }

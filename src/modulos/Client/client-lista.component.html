@@ -26,14 +26,15 @@
                 <td>{{ cliente.email }}</td>
                 <td>{{ cliente.regDate }}</td>
                 <td>
-                    <button class="btn btn-light" type="button">
+                    <button class="btn btn-light" type="button"(click)="editar(cliente.id)"
+                    tooltip="Editar Client">
                         <i class="fa-solid fa-pen-to-square ml-30"></i>
                     </button>
                     
                 </td>
                 <td>
                     <button class="btn btn-light" type="button"(click)="deletClient(cliente.id)"
-                    tooltip="Eliminar Artículo">
+                    tooltip="Eliminar Client">
                         <i class="fa-solid fa-trash text-danger">
 
                     </i></button>
@@ -43,7 +44,7 @@
 
           </table>
           <div class="mb-3">
-            <button routerLink="/" class="btn btn-primary btn-lg btn-block" (click)="agregar()" >AGREGAR</button>
+            <button routerLink="/" class="btn btn-primary btn-lg btn-block"(click)="agregar()">AGREGAR</button>
         </div>
         </div>
       </div>

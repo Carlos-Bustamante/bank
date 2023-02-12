@@ -5,7 +5,8 @@ export class Cliente {
     email: string;
     regDate?: Date;
     
-    constructor(nombre: string, phoneNumber: string, email: string, fecha?: Date){
+    constructor(id: number, nombre: string, phoneNumber: string, email: string, fecha?: Date){
+        this.id = id;
         this.name = nombre;
         this.phoneNumber = phoneNumber;
         this.email = email;

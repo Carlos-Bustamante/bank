@@ -7,6 +7,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'clientes', pathMatch: 'full' },
   { path: 'clientes', component: ClientListaComponent},
   { path: 'add', component: ClientAgregarComponent },
+  { path:'edit/:id', component: ClientAgregarComponent },
   { path:'**', redirectTo: 'clientes', pathMatch: 'full'}
 ];
 
