@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
 
-<image src="https://picsum.photos/800/600](https://photos.app.goo.gl/mnvzaK79QJos1i8N8)" alt="Panel Principal">
+<image src="https://drive.google.com/file/d/1MW70rVl4yELen_00RlvwyO6q6KqMpxYF/view?usp=sharing" alt="Panel Principal">
 <image src="https://photos.app.goo.gl/7AeBReuG2VaQMCvq6" alt="Panel Agregar Cliente">
 <image src="https://photos.app.goo.gl/j4DieP7B2UJp2fwf8" alt="Panel Edit">
 <image src="https://photos.app.goo.gl/b4Fn58UcuHzm6qoH7" alt="Conexion a Sql desde Vs Code">
