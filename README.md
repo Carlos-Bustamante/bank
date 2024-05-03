@@ -2,10 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
 
-<image src="https://photos.google.com/share/AF1QipNgQSkMFtF9NCLjVGpQuB2gIDboG4_WOrBKbOnXRFV8Dtwl3wQDrUuGQR_2l5CFKw/photo/AF1QipPqAuvngRa6S3SUojZPVF1isxni1fhbCUXXsi9N?key=RzJmVkRPMVFEemdrY1MxX0x3UmlvTTNiOHpPcGdB" alt="Panel Principal">
-<image src="https://photos.app.goo.gl/7AeBReuG2VaQMCvq6" alt="Panel Agregar Cliente">
-<image src="https://photos.app.goo.gl/j4DieP7B2UJp2fwf8" alt="Panel Edit">
-<image src="https://photos.app.goo.gl/b4Fn58UcuHzm6qoH7" alt="Conexion a Sql desde Vs Code">
+<image src="https://drive.google.com/uc?export=view&id=1MW70rVl4yELen_00RlvwyO6q6KqMpxYF" alt="Panel Principal">
+<image src="https://drive.google.com/uc?export=view&id=1PT6IdxuuQOAvn-MRQS5Pa_4qRYnUSSHP" alt="Panel Agregar Cliente">
+<image src="https://drive.google.com/uc?export=view&id=1zeLwgDKC25DR6cheBoGSg2CddsbFKKAg" alt="Panel Edit">
+<image src="https://drive.google.com/uc?export=view&id=1YtemjLIXEUlRozpsMV1uFSgZsUoHShec" alt="Conexion a Sql desde Vs Code">
 
 ## Development server
 
